@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Dynamic Wave';
+    src: 
+      url("DynamicWave.otf");
+      
+}
+@font-face {
+
+    font-family: 'Blue Wave';
+    src: 
+      url("BlueOcean.otf");
+     
+}
+
+@font-face{
+  font-family:'Over Wave';
+  src:
+    url(Overwave.otf);
+}

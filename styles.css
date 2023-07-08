@@ -23,9 +23,9 @@ body {
 img {
   height: 60vh;
   width: 50vw;
-  margin-top: 40px;
-  margin-left: 60px;
-  margin-right: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 45px;
 
 }
 .logo-container{
@@ -33,6 +33,7 @@ img {
   width:60%;
   height:100vh;
   margin-left: 0px;
+  margin-bottom: 30px;
   
 }
 .logo-text {
@@ -60,8 +61,9 @@ img {
 .quote {
   text-align: center;
   color: white;
+  margin-top:50px;
 }
-.home {
+#home {
   display:flex;
   background-image: url(Slash\ \(1\).png);
   background-repeat: no-repeat;
@@ -73,39 +75,61 @@ img {
 .quote {
   padding-right: 100px;
   padding-left: 50px;
+  margin-top: 10px;
 }
 .records {
   /* background-color: red; */
   transform: rotate(30deg);
-  height: 120vh;
+  height: 105vh;
   width: 50vw;
   overflow: hidden;
-  margin-right: 10px;
-  margin-top: 50px;
+  margin-right: 0px;
+  margin-top: 58px;
+  margin-bottom: 300px;
  
   /* margin-left: 20px; */
 }
 .record-image {
-  width: 300px;
-  height:300px;
+  width: 350px;
+  height:350px;
   /* margin-left: 80px; */
   transform: rotate(-90deg);
  
 }
+
+/*
+.bar{
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change #bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change #bar2 {opacity: 0;}
+
+.change #bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+*/
+
 .records-container {
   display: flex;
   flex-direction: column;
   white-space: nowrap;
   /* transform: rotate(30deg); */
   animation: scroll 10s linear infinite alternate;
-  margin-bottom:300px;
+  margin-bottom:400px;
 }
 
 @keyframes scroll{
   0% { transform: translateY(0); }
-	100% { transform: translateY(calc(-2875px))};
+	100% { transform: translateY(calc(-2600px))};
 }
-
 
 
 #college {
@@ -132,4 +156,52 @@ margin-left: 50px;
 .records-container:after {
   right: 0;
   background: linear-gradient(to left, rgba(0, 0, 0, 1) 20px, rgba(0, 0, 0, 0));
+}
+
+.bars {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px;
+}
+.menu-img {
+  position: absolute;
+  top: 8px;
+  left: 0px;
+}
+.menu-button {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.closebtn {
+  width:20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  font-size: 36px;
+  margin-left: 80px;
+}
+.navbar {
+  height:100%;
+  width: 0;
+  background-color: #111;
+  position:fixed;
+  left:0;
+  overflow-x: hidden;
+  transition:0.5s;
+  padding-top:50px;
+  z-index:1;
+  text-align: center;
+}
+
+.navbar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }

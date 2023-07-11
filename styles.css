@@ -416,3 +416,6 @@ p {
 .everything {
   display: flex;
 }
+.cotacts {
+  display:none;
+}

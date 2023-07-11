@@ -63,7 +63,7 @@ img {
   color: white;
   margin-top:50px;
 }
-#home {
+.home {
   display:flex;
   background-image: url(Slash\ \(1\).png);
   background-repeat: no-repeat;
@@ -204,4 +204,137 @@ margin-left: 50px;
   color: #818181;
   display: block;
   transition: 0.3s;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.album {
+text-align: center;
+
+}
+
+.projects-container {
+  width: 100%;
+  height: 100%;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+}
+
+.dataType {
+  flex-direction: column;
+}
+
+#album1 {
+  width: 350px;
+  /* Change height to make it include all data */
+  height: 440px;
+  border: 5px solid black;
+  position: relative;
+  left:30px;
+  top:50px;
+  
+}
+
+#album2 {
+  width: 350px;
+  height: 410px;
+  border: 5px solid black;
+  position: relative; 
+  top: 90px;
+  left: 30px;
+}
+
+#album3 {
+  width: 400px;
+  height: 470px;
+  border: 5px solid black;
+  position: relative;
+  left:450px;
+  top: -770px;
+}
+
+#album4 {
+  width: 350px;
+  height: 470px;
+  border: 5px solid black;
+  margin-bottom:50px;
+  position:relative;
+  top:-1150px;
+  right:-900px;
+
+}
+
+#album5 {
+  width: 400px;
+  height: 450px;
+  border: 5px solid black;
+  position:relative;
+  left:450px;
+  top:-1230px;
+  
+}
+
+.g-image {
+  width: 90%;
+  height: 80%;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.heart {
+  display: flex;
+}
+
+.play {
+  width:40px;
+  height:40px;
+  margin-left: 55%;
+  margin-top: 2%;
+}
+.me-icon {
+  width:50px;
+  height:50px;
+  margin:0px;
+}
+
+.is-active {
+  transition-duration: 1s;
+  background-position: -2800px 0;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.artist {
+  display: flex;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.glyphicon {
+  font-size:30px;
+  margin-left:20px;
+  margin-top: 0px;
+}
+.g-image {
+  height:88%;
+}
+.album-info {
+  height:90%;
+}
+.glyphicon-heart {
+  color: red;
+}
+.projects {
+  display: none;
 }

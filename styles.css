@@ -26,6 +26,7 @@ img {
   margin-top: 20px;
   margin-left: 50px;
   margin-right: 45px;
+  
 
 }
 .logo-container{
@@ -97,25 +98,6 @@ img {
  
 }
 
-/*
-.bar{
-  width: 35px;
-  height: 5px;
-  background-color: white;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-
-.change #bar1 {
-  transform: translate(0, 11px) rotate(-45deg);
-}
-
-.change #bar2 {opacity: 0;}
-
-.change #bar3 {
-  transform: translate(0, -11px) rotate(45deg);
-}
-*/
 
 .records-container {
   display: flex;
@@ -290,11 +272,11 @@ text-align: center;
 .heart {
   display: flex;
 }
-
 .play {
   width:40px;
   height:40px;
-  margin-left: 55%;
+ margin-right: 95%;
+
   margin-top: 2%;
 }
 .me-icon {
@@ -322,6 +304,7 @@ h2 {
   align-items: center;
 }
 .glyphicon {
+  border: white;
   font-size:30px;
   margin-left:20px;
   margin-top: 0px;
@@ -337,4 +320,99 @@ h2 {
 }
 .projects {
   display: none;
+}
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@400;600;700&display=swap");
+
+
+@keyframes flicker {
+  0% {
+    opacity: 0.5;
+    text-shadow: 2px 2px 10px #FF3131;
+  }
+
+  100% {
+    opacity: 1;
+    text-shadow: 2px 2px 20px #FF3131;
+  }
+}
+
+
+
+
+.about-me {
+  background-color: red;
+  width: 80vw;
+  height: 555px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.photo-container {
+  width: 40%;
+  height: 80%;
+  margin-left: 25px;
+  border-radius: 25px;
+  margin-right: 0px;
+
+}
+
+.about-myself {
+  width: 200px
+  height: 200px
+  border-radius: 25px;
+  
+}
+
+.vinyl-record {
+  padding-left: 0px;
+  padding-bottom: 10px;
+}
+
+.circle {
+  height: 500px;
+  width: 500px;
+  margin-left: 0;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+.me-pic {
+  width:250px;
+  height:250px;
+  z-index: 1;
+  border-radius: 50px;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+
+}
+.aboutme {
+  display: none;
+}
+p {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 150px;
+  color: white;
+  font-size: 25px;
+}
+
+.description {
+  height: 70%;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+.everything {
+  display: flex;
 }

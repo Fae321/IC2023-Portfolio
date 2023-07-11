@@ -419,3 +419,19 @@ p {
 .cotacts {
   display:none;
 }
+.gmail-link {
+  width:150px;
+  height: 100px;
+}
+.link-link {
+  width:250px;
+  height:100px;
+  margin-right: 0px;
+}
+.contact-container {
+  display:flex;
+  justify-content: center;
+  margin-top:100px;
+  border: 3px solid white;
+  
+}
